@@ -19,7 +19,7 @@ namespace Mandelbrot
             int width = 800;
             int height = 600;
             double zoom = 1;
-            int iterations = 20;
+            int iterations = 50;
 
             FractalRenderer renderer = new FractalRenderer(width, height, center, zoom, iterations);
             Image<Rgb24> image = renderer.Render();
